@@ -26,11 +26,13 @@ td {
     position: absolute;
     vertical-align: 200px;
     margin-left: 50%;
-    top: -25%;
+    top: -75%;
     left: 0px;
-    height: 50%;
+    height: 100%;
     border-right: solid 3px #000;
     z-index: 1;
+    animation-duration: 4s;
+    animation-name: descenteampoule2;
 }
 
 .cadre {
@@ -58,7 +60,12 @@ header ul li a:hover {
     color: black;
 }
 
-@keyframes descenteampoule {
+@keyframes descenteampoule2 {
+    0%   {top: -75%;}
+    100% {top: 20%;}
+}
+
+@keyframes descenteampoule1 {
     0%   {margin-top: 10%;}
     100% {margin-top: 50%;}
 }
@@ -67,7 +74,7 @@ header ul li a:hover {
     text-align: center;
     margin-top: 10%;
     animation-duration: 4s;
-    animation-name: descenteampoule;
+    animation-name: descenteampoule1;
 }
 
 
