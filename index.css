@@ -18,14 +18,10 @@ h5{
     margin: 0;
 }
 
-#ampoule{
-    text-align: center;
-    margin-top: 10%;
-}
-
 td {
     position: relative;
 }
+
 .verticalLine{
     position: absolute;
     vertical-align: 200px;
@@ -93,3 +89,17 @@ header ul li a:hover {
     background: white;
     color: black;
 }
+
+@keyframes descenteampoule {
+    0%   {margin-top: 10%;}
+    100% {margin-top: 50%;}
+}
+
+#ampoule{
+    text-align: center;
+    margin-top: 10%;
+    animation-duration: 4s;
+    animation-name: descenteampoule;
+    position: relative;
+}
+
