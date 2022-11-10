@@ -19,7 +19,8 @@ h5{
 }
 
 #ampoule{
-  text-align: center;
+    text-align: center;
+    margin-top: 10%;
 }
 
 td {
@@ -28,9 +29,9 @@ td {
 .verticalLine{
     position: absolute;
     vertical-align: 200px;
-    top: -270px;
+    margin-left: 50%;
+    top: -300px;
     left: 0px;
-    width: 50%;
     height: 50%;
     border-right: solid 3px #000;
     z-index: 9999;
@@ -39,4 +40,56 @@ td {
 .cadre {
     position: absolute;
     width: 100px;
+}
+
+.tableau {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-direction: 
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    from {
+        position: -500%;
+    }
+    
+    to {
+        right:50%;
+        left: 50%;
+    }
+}
+
+/*
+HEADER
+*/
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 97%;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 15px;
+}
+header ul li a:hover {
+    background: white;
+    color: black;
 }
