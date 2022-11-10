@@ -30,7 +30,7 @@ td {
     left: 0px;
     height: 50%;
     border-right: solid 3px #000;
-    z-index: 9999;
+    z-index: 1;
 }
 
 .cadre {
@@ -68,7 +68,6 @@ header ul li a:hover {
     margin-top: 10%;
     animation-duration: 4s;
     animation-name: descenteampoule;
-    position: relative;
 }
 
 
@@ -77,11 +76,11 @@ header ul {
     justify-content: center;
     align-items: center;
 }
-header ul li {
+header li {
     list-style: none;
-    margin-left: 20px;
+    margin-right: 20px;
 }
-header ul li a {
+header li a {
     text-decoration: none;
     padding: 6px 15px;
     color: white;
