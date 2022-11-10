@@ -1,0 +1,2 @@
+$ampoule = document.getElementById("ampoule");
+
