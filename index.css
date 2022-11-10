@@ -36,3 +36,7 @@ td {
     z-index: 9999;
 }
 
+.cadre {
+    position: absolute;
+    width: 100px;
+}
