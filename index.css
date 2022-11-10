@@ -49,8 +49,11 @@ ANIMATION
 }
 
 @keyframes descenteampoule1 {
-    0%   {margin-top: 10%;}
-    100% {margin-top: 50%;}
+    0%   {margin-top: 10%;
+        box-shadow: 0 ;
+    }
+    100% {margin-top: 50%;
+    }
 }
 
 
@@ -103,3 +106,27 @@ header ul li a:hover {
     color: black;
 }
     
+
+#calanque{
+  margin-left: 140px;
+}
+
+#cardeurs{
+  margin-left: 580px;
+}
+
+#cassis{
+  margin-left: 340px;
+}
+
+#stade{
+  margin-left: 50px;
+}
+
+#saintevictoire{
+  margin-left: 780px;
+}
+
+#zizoukarim{
+  margin-left: 680px;
+}
