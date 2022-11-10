@@ -18,6 +18,20 @@ h5{
     margin: 0;
 }
 
+#ampoule{
+  text-align: center;
+}
 
-
-j5
+td {
+    position: relative;
+}
+.verticalLine{
+    position: absolute;
+    vertical-align: 200px;
+    top: -270px;
+    left: 0px;
+    width: 50%;
+    height: 50%;
+    border-right: solid 3px #000;
+    z-index: 9999;
+}
