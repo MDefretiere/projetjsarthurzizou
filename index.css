@@ -30,13 +30,36 @@ td {
     left: 0px;
     height: 50%;
     border-right: solid 3px #000;
-    z-index: 1;
+    z-index: 9999;
 }
 
+/*
+CADRE
+*/
 .cadre {
-    position: absolute;
+    width: min-intrinsic;
+    height: auto;
+    border: 3px solid #873600;
+    background: #FFFFFF;
+    margin: auto;
+    padding: 15px 25px;
 }
 
+/*
+ANIMATION
+*/
+@keyframes descenteampoule {
+    0%   {margin-top: 10%;}
+    100% {margin-top: 50%;}
+}
+
+#ampoule{
+    text-align: center;
+    margin-top: 10%;
+    animation-duration: 4s;
+    animation-name: descenteampoule;
+    position: relative;
+}
 
 /*
 HEADER
@@ -52,35 +75,21 @@ header {
     align-items: center;
     z-index: 100;
 }
-
 header ul li a:hover {
     background: white;
     color: black;
 }
-
-@keyframes descenteampoule {
-    0%   {margin-top: 10%;}
-    100% {margin-top: 50%;}
-}
-
-#ampoule{
-    text-align: center;
-    margin-top: 10%;
-    animation-duration: 4s;
-    animation-name: descenteampoule;
-}
-
-
 header ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header li {
+header ul li {
     list-style: none;
+    margin-left: 20px;
     margin-right: 20px;
 }
-header li a {
+header ul li a {
     text-decoration: none;
     padding: 6px 15px;
     color: white;
@@ -90,3 +99,4 @@ header ul li a:hover {
     background: white;
     color: black;
 }
+    
