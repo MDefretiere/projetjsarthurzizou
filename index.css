@@ -12,17 +12,24 @@ td {
     position: relative;
 }
 
-.verticalLine{
+img{
+  z-index: 1;
+}
+
+.filampoule{
     position: absolute;
     margin-left: 50%;
-    top: -75%;
-    left: 0px;
-    height: 100%;
-    border-right: solid 3px #000;
     animation-duration: 4s;
     animation-name: descenteampoule2;
-    z-index: 9999;
+    top: -990px;
 }
+
+.verticalLine{
+    height: 1000px;
+    border-right: solid 3px #000;
+    z-index: 99;
+}
+
 
 /*
 CADRE
@@ -35,6 +42,18 @@ CADRE
     padding: 15px 25px;
 }
 
+.filcadre1{
+  position: absolute;
+  top: -998px;
+  left: 5px;
+}
+
+.filcadre2{
+  position: absolute;
+  top: -998px;
+  right: 5px;
+}
+
 /*
 ANIMATION
 */
@@ -43,26 +62,14 @@ ANIMATION
     100% {margin-top: 50%;}
 }
 
-@keyframes descenteampoule2 {
-    0%   {top: -75%;}
-    100% {top: 15%;}
-}
-
-@keyframes descenteampoule1 {
-    0%   {margin-top: 10%;
-        box-shadow: 0 ;
-    }
-    100% {margin-top: 50%;
-    }
-}
-
 
 #ampoule{
     text-align: center;
-    margin-top: 10%;
+    position: absolute;
+    top: 10%;
+    left: 45%;
     animation-duration: 4s;
     animation-name: descenteampoule;
-    position: relative;
 }
 
 /*
@@ -108,25 +115,37 @@ header ul li a:hover {
     
 
 #calanque{
-  margin-left: 140px;
+  position: absolute;
+  left: 140px;
+  top: 280px;
 }
 
 #cardeurs{
-  margin-left: 580px;
+  position: absolute;
+  left: 580px;
+  top: 200px;
 }
 
 #cassis{
-  margin-left: 340px;
+  position: absolute;
+  left: 340px;
+  top: 470px;
 }
 
 #stade{
-  margin-left: 50px;
+  position: absolute;
+  left: 50px;
+  top: 130px;
 }
 
 #saintevictoire{
-  margin-left: 780px;
+  position: absolute;
+  left: 880px;
+  top: 100px;
 }
 
 #zizoukarim{
-  margin-left: 680px;
+  position: absolute;
+  left: 700px;
+  top: 400px;
 }
