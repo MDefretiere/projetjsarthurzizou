@@ -62,6 +62,36 @@ ANIMATION
     100% {margin-top: 50%;}
 }
 
+@keyframes descentestade {
+  0%   {margin-top: -50%;}
+  100% {margin-top: 30%;}
+}
+
+@keyframes descentecardeurs {
+  0%   {margin-top: -50%;}
+  100% {margin-top: 30%;}
+}
+
+@keyframes descentesaintevictoire {
+  0%   {margin-top: -50%;}
+  100% {margin-top: 30%;}
+}
+
+@keyframes descentecalanque {
+  0%   {margin-top: -50%;}
+  100% {margin-top: 45%;}
+}
+
+@keyframes descentezizoukarim {
+  0%   {margin-top: -50%;}
+  100% {margin-top: 45%;}
+}
+
+@keyframes descentecassis {
+  0%   {margin-top: -50%;}
+  100% {margin-top: 35%;}
+}
+
 
 #ampoule{
     text-align: center;
@@ -117,35 +147,35 @@ header ul li a:hover {
 #calanque{
   position: absolute;
   left: 140px;
-  top: 280px;
+  top: -200px;
 }
 
 #cardeurs{
   position: absolute;
   left: 580px;
-  top: 200px;
+  top: -200px;
 }
 
 #cassis{
   position: absolute;
   left: 340px;
-  top: 470px;
+  top: -200px;
 }
 
 #stade{
   position: absolute;
   left: 50px;
-  top: 130px;
+  top: -200px;
 }
 
 #saintevictoire{
   position: absolute;
   left: 880px;
-  top: 100px;
+  top: -200px;
 }
 
 #zizoukarim{
   position: absolute;
   left: 700px;
-  top: 400px;
+  top: -200px;
 }
