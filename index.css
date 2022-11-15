@@ -27,7 +27,7 @@ img{
 .verticalLine{
     height: 1000px;
     border-right: solid 3px #000;
-    z-index: 99;
+    z-index: 99999;
 }
 
 
@@ -40,6 +40,7 @@ CADRE
     border: 3px solid #873600;
     background: #FFFFFF;
     padding: 15px 25px;
+    z-index: 10;
 }
 
 .filcadre1{
@@ -74,7 +75,7 @@ ANIMATION
 
 @keyframes descentesaintevictoire {
   0%   {margin-top: -50%;}
-  100% {margin-top: 30%;}
+  100% {margin-top: 25%;}
 }
 
 @keyframes descentecalanque {
@@ -89,7 +90,7 @@ ANIMATION
 
 @keyframes descentecassis {
   0%   {margin-top: -50%;}
-  100% {margin-top: 35%;}
+  100% {margin-top: 32%;}
 }
 
 
@@ -146,36 +147,36 @@ header ul li a:hover {
 
 #calanque{
   position: absolute;
-  left: 140px;
+  left: 10%;
   top: -200px;
 }
 
 #cardeurs{
   position: absolute;
-  left: 580px;
+  left: 80%;
   top: -200px;
 }
 
 #cassis{
   position: absolute;
-  left: 340px;
+  left: 25%;
   top: -200px;
 }
 
 #stade{
   position: absolute;
-  left: 50px;
+  left: 5%;
   top: -200px;
 }
 
 #saintevictoire{
   position: absolute;
-  left: 880px;
+  left: 50%;
   top: -200px;
 }
 
 #zizoukarim{
   position: absolute;
-  left: 700px;
+  left: 65%;
   top: -200px;
 }
