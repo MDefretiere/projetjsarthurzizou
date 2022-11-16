@@ -1,6 +1,6 @@
 body {
 	font-family: Noto Sans, sans-serif;
-    background-color: #999999;
+    background-color: #000000;
 }
 
 p{
@@ -16,11 +16,21 @@ img{
   z-index: 1;
 }
 
+#menus{
+  display: none;
+}
+
+#titre{
+  color: white;
+}
+
+#titre:hover{
+  color: #AAAAAA;
+}
+
 .filampoule{
     position: absolute;
     margin-left: 50%;
-    animation-duration: 4s;
-    animation-name: descenteampoule2;
     top: -990px;
 }
 
@@ -46,25 +56,42 @@ CADRE
   position: absolute;
   top: -998px;
   left: 5px;
+    z-index: 99;
 }
 
 .filcadre2{
   position: absolute;
   top: -998px;
   right: 5px;
+    z-index: 99;
 }
 
 /*
 ANIMATION
 */
 @keyframes descenteampoule {
-    0%   {margin-top: 10%;}
-    100% {margin-top: 50%;}
+    0%   {margin-top: 0%;}
+    100% {margin-top: 15%;}
+}
+
+@keyframes descentetexte {
+    0%   {margin-top: 0%;}
+    100% {margin-top: 110%;}
+}
+
+@keyframes monteeampoule {
+    0%   {margin-top: 15%;}
+    100% {margin-top: 5%;}
+}
+
+@keyframes monteetexte {
+    0%   {margin-top: 90%;}
+    100% {margin-top: -30%;}
 }
 
 @keyframes descentestade {
   0%   {margin-top: -50%;}
-  100% {margin-top: 30%;}
+  100% {margin-top: 33%;}
 }
 
 @keyframes descentecardeurs {
@@ -74,7 +101,7 @@ ANIMATION
 
 @keyframes descentesaintevictoire {
   0%   {margin-top: -50%;}
-  100% {margin-top: 30%;}
+  100% {margin-top: 25%;}
 }
 
 @keyframes descentecalanque {
@@ -94,10 +121,9 @@ ANIMATION
 
 
 #ampoule{
-    text-align: center;
     position: absolute;
     top: 10%;
-    left: 45%;
+    left: 49%;
     animation-duration: 4s;
     animation-name: descenteampoule;
 }

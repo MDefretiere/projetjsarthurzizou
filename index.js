@@ -1,5 +1,9 @@
 $ampoule = document.getElementById("ampoule");
 
+$titre = document.getElementById("titre");
+
+$menu = document.getElementById("menus");
+
 $stade = document.getElementById("stade");
 
 $cardeurs = document.getElementById("cardeurs");
@@ -11,6 +15,17 @@ $calanque = document.getElementById("calanque");
 $zizoukarim = document.getElementById("zizoukarim");
 
 $cassis = document.getElementById("cassis");
+
+$ampoule.style.animation = "descenteampoule 3s both";
+
+$titre.style.animation = "descentetexte 3s both";
+
+function clickTexte() {
+	$ampoule.style.animation = "monteeampoule 3s both";
+	$titre.style.animation = "monteetexte 3s both";
+	$menu.style.display = "block";
+	document.body.style.backgroundColor = '#999999';
+}
 
 function click1(){
 	$stade.style.animation = "descentestade 4s both";
