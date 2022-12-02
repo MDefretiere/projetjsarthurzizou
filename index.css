@@ -52,14 +52,12 @@ CADRE
     padding: 15px 25px;
     z-index: 10;
 }
-
 .filcadre1{
   position: absolute;
   top: -998px;
   left: 5px;
     z-index: 99;
 }
-
 .filcadre2{
   position: absolute;
   top: -998px;
@@ -77,17 +75,17 @@ ANIMATION
 
 @keyframes descentetexte {
     0%   {margin-top: 0%;}
-    100% {margin-top: 110%;}
+    100% {margin-top: 145%;}
 }
 
 @keyframes monteeampoule {
     0%   {margin-top: 15%;}
-    100% {margin-top: 5%;}
+    100% {margin-top: 0%;}
 }
 
 @keyframes monteetexte {
     0%   {margin-top: 90%;}
-    100% {margin-top: -30%;}
+    100% {margin-top: 0%;}
 }
 
 @keyframes descentestade {
@@ -127,6 +125,7 @@ ANIMATION
     left: 49%;
     animation-duration: 4s;
     animation-name: descenteampoule;
+    z-index: 5;
 }
 
 /*
@@ -143,66 +142,71 @@ header {
     align-items: center;
     z-index: 100;
 }
-header ul li a:hover {
-    background: white;
-    color: black;
-}
-
-
-header ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-header ul li {
-    list-style: none;
+header button {
     margin-left: 20px;
     margin-right: 20px;
-}
-header ul li a {
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     padding: 6px 15px;
     color: white;
-    border-radius: 15px;
+    border-radius: 5px;
 }
-header ul li a:hover {
+header button:hover {
     background: white;
     color: black;
 }
     
-
+/*
+CADRE
+*/
 #calanque{
   position: absolute;
   left: 10%;
   top: -200px;
 }
-
 #cardeurs{
   position: absolute;
   left: 80%;
   top: -200px;
 }
-
 #cassis{
   position: absolute;
   left: 25%;
   top: -200px;
 }
-
 #stade{
   position: absolute;
   left: 5%;
   top: -200px;
 }
-
 #saintevictoire{
   position: absolute;
   left: 50%;
   top: -200px;
 }
-
+#saintevictoire img{
+  position: relative;
+}
 #zizoukarim{
   position: absolute;
   left: 65%;
   top: -200px;
+}
+
+.txtcontenu {
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s;
+  z-index:2;
+}
+.imgcontenu {
+  height: 100%;
+  transition: 0.5s;
+}
+.conteneura:hover .imgcontenu {
+  opacity: 0.5;
+}
+.conteneura:hover .txtcontenu {
+  opacity: 1;
 }

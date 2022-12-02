@@ -11,15 +11,13 @@
 		<!-- HEADER debut -->
 		<div id="header">
 			<header>
-				<div>
-					<ul id="menus">
-						<li><button onclick="click1()">1</button></li>
-						<li><button onclick="click2()">2</button></li>
-						<li><button onclick="click3()">3</button></li>
-						<li><button onclick="click4()">4</button></li>
-						<li><button onclick="click5()">5</button></li>
-						<li><button onclick="click6()">6</button></li>
-					</ul>
+				<div id="menus">
+					<button onclick="click1()">1</button>
+					<button onclick="click2()">2</button>
+					<button onclick="click3()">3</button>
+					<button onclick="click4()">4</button>
+					<button onclick="click5()">5</button>
+					<button onclick="click6()">6</button>
 				</div>
 				<div>
 					<p id="titre" onclick="clickTexte()">Exposition Joly/Defretiere</p>
@@ -37,7 +35,10 @@
 		<div class="cadre" id="saintevictoire">
 			<div class="verticalLine filcadre1" id="verticalLine"></div>
 			<div class="verticalLine filcadre2" id="verticalLine"></div>
-			<img src="img/saintevictoire.jpg" width="280px">
+			<div class="conteneura">
+				<div class="txtcontenu">La belle St-Victoire</div>
+				<img src="img/saintevictoire.jpg" width="280px" class="imgcontenu">
+			</div>
 		</div>
 
 		<div class="cadre" id="stade">
