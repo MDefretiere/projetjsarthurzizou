@@ -24,7 +24,7 @@ function clickTexte() {
 	$ampoule.style.animation = "monteeampoule 3s both";
 	$titre.style.animation = "monteetexte 3s both";
 	$menu.style.display = "block";
-	document.body.style.backgroundColor = '#999999';
+	document.body.style.backgroundColor = '#FFEAA2';
 }
 
 function click1(){

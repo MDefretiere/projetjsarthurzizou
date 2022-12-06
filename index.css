@@ -76,17 +76,17 @@ ANIMATION
 
 @keyframes descentetexte {
     0%   {margin-top: 0%;}
-    100% {margin-top: 145%;}
+    100% {margin-top: 115%;}
 }
 
 @keyframes monteeampoule {
     0%   {margin-top: 15%;}
-    100% {margin-top: 0%;}
+    100% {margin-top: 6%;}
 }
 
 @keyframes monteetexte {
     0%   {margin-top: 90%;}
-    100% {margin-top: 0%;}
+    100% {margin-top: 5%;}
 }
 
 @keyframes descentestade {
@@ -101,12 +101,12 @@ ANIMATION
 
 @keyframes descentesaintevictoire {
   0%   {margin-top: -50%;}
-  100% {margin-top: 55%;}
+  100% {margin-top: 50%;}
 }
 
 @keyframes descentecalanque {
   0%   {margin-top: -50%;}
-  100% {margin-top: 60%;}
+  100% {margin-top: 55%;}
 }
 
 @keyframes descentezizoukarim {
@@ -116,7 +116,7 @@ ANIMATION
 
 @keyframes descentecassis {
   0%   {margin-top: -50%;}
-  100% {margin-top: 45%;}
+  100% {margin-top: 40%;}
 }
 
 
